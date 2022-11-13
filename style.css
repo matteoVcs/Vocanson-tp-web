@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+}
+
+.responsive {
+    width: 60%;
+    height: auto;
+}
+
+.button {
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.kaiminus {
+    padding: 95px 90px;
+    background-repeat: no-repeat;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    background-image: url("doc/kaiminus.png");
+}
+
+.hericendre {
+    padding: 95px 110px;
+    background-repeat: no-repeat;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    background-image: url("doc/hericendre.png");
+}
+
+.germinion {
+    padding: 95px 85px;
+    background-repeat: no-repeat;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    background-image: url("doc/germinion.png");
+}
+
+.aventure {
+    text-align: left;
+    position: relative;
+    color: red;
+    top: 200px;
+}
+
+.victoire1 {
+    padding: 30px;
+    border: 5px solid gray;
+    position: relative;
+    display:inline-block;
+    left:30%;
+}
+
+
+
+dir > a:hover {
+    background-image: url("doc/gigachad.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: blue;
+}
+
+.gameOver {
+    font-family: 'LVDC Game Over 2', sans-serif;
+}
+
+.retry {
+    position: relative;
+    display:inline-block;
+    left: 30%;
+}
+
+.oui:hover {
+    background-color: green;
+}
+
+.non:hover {
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    background-color: white;
+    color: gray;
+    padding: 3px;
+    border: 5px solid gray;
+}
+
+a:hover{
+    background-color: gray;
+    color: white;
+}
